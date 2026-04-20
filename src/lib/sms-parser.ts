@@ -38,6 +38,8 @@ const CATEGORY_KEYWORDS: Record<Category, string[]> = {
   'Lifestyle': ['salon', 'spa', 'gym', 'fitness', 'grooming', 'parlour'],
   'Essentials': ['grocery', 'bigbasket', 'blinkit', 'zepto', 'dunzo', 'vegetables', 'milk', 'dmart', 'reliance fresh'],
   'Uncategorized': [],
+  'Credit Card Bills & EMIs': ['emi','loan','credit card','card bill','minimum due','statement due','installment'],
+'Health Insurance': ['insurance','premium','mediclaim','health policy','policy renewal'],
 }
 
 function guessCategory(text: string): Category {
