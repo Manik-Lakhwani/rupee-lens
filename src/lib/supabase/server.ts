@@ -22,7 +22,7 @@ export function createClient() {
         remove(name, options) {
           try {
             if (typeof cookieStore.delete === 'function') {
-              cookieStore.delete(name, options)
+              cookieStore.delete(name)
             } else {
               cookieStore.set(name, '', { ...options, maxAge: 0 })
             }
